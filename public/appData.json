@@ -1,371 +1,362 @@
 [
   {
-    "image": "https://images.unsplash.com/photo-1581091870622-df7ea55874c4",
-    "title": "Health Monitor",
-    "companyName": "MediTech",
-    "id": 1,
-    "description": "Real-time health tracking with AI insights.",
-    "size": 45,
-    "reviews": 1200,
-    "ratingAvg": 4.5,
-    "downloads": 50000,
-    "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 80 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 650 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1551033541-2075d8363c93",
-    "title": "Study Buddy",
-    "companyName": "EduVision",
-    "id": 2,
-    "description": "Smart study planner with productivity tools.",
-    "size": 32,
-    "reviews": 850,
-    "ratingAvg": 4.2,
-    "downloads": 40000,
-    "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 90 },
-      { "name": "3 star", "count": 140 },
-      { "name": "4 star", "count": 260 },
-      { "name": "5 star", "count": 320 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1546069901-eacef0df6022",
-    "title": "Foodies",
-    "companyName": "Delish Apps",
-    "id": 3,
-    "description": "Food recipe and restaurant finder app.",
-    "size": 50,
-    "reviews": 2200,
+    "image": "https://placehold.co/200x200/007AFF/FFFFFF/png?text=ART",
+    "title": "PixelPainter Pro",
+    "companyName": "ArtTech Solutions",
+    "id": 101,
+    "description": "A powerful, intuitive digital art studio for professional and amateur artists.",
+    "size": 85.5,
+    "reviews": 15430,
     "ratingAvg": 4.7,
-    "downloads": 120000,
+    "downloads": 580000,
     "ratings": [
-      { "name": "1 star", "count": 80 },
-      { "name": "2 star", "count": 100 },
-      { "name": "3 star", "count": 180 },
-      { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 1140 }
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 9700 }
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1554284126-aa88f22d8b74",
-    "title": "FitTrack",
-    "companyName": "ActivePro",
-    "id": 4,
-    "description": "Track your workouts and fitness goals.",
-    "size": 38,
-    "reviews": 1450,
-    "ratingAvg": 4.3,
-    "downloads": 80000,
-    "ratings": [
-      { "name": "1 star", "count": 70 },
-      { "name": "2 star", "count": 110 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 500 },
-      { "name": "5 star", "count": 570 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1556742044-3c52d6e88c62",
-    "title": "Finance Guru",
-    "companyName": "MoneyHub",
-    "id": 5,
-    "description": "Personal finance and expense tracker.",
-    "size": 29,
-    "reviews": 900,
-    "ratingAvg": 4.1,
-    "downloads": 45000,
-    "ratings": [
-      { "name": "1 star", "count": 60 },
-      { "name": "2 star", "count": 100 },
-      { "name": "3 star", "count": 170 },
-      { "name": "4 star", "count": 290 },
-      { "name": "5 star", "count": 280 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
-    "title": "Travel Mate",
-    "companyName": "JourneySoft",
-    "id": 6,
-    "description": "Plan trips and explore destinations easily.",
-    "size": 55,
-    "reviews": 1890,
-    "ratingAvg": 4.8,
-    "downloads": 150000,
-    "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 90 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 540 },
-      { "name": "5 star", "count": 1090 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
-    "title": "Quick Notes",
-    "companyName": "Paperless Co.",
-    "id": 7,
-    "description": "Lightweight note-taking app with sync.",
-    "size": 18,
-    "reviews": 650,
-    "ratingAvg": 4.0,
-    "downloads": 25000,
-    "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 180 },
-      { "name": "4 star", "count": 190 },
-      { "name": "5 star", "count": 170 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1470290378698-263fa7ca6a9e",
-    "title": "PhotoMagic",
-    "companyName": "Pixel Labs",
-    "id": 8,
-    "description": "Photo editing tool with advanced filters.",
-    "size": 70,
-    "reviews": 2500,
-    "ratingAvg": 4.6,
-    "downloads": 200000,
-    "ratings": [
-      { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 160 },
-      { "name": "3 star", "count": 240 },
-      { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 1280 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1596495578065-9a56b8e2e174",
-    "title": "Learn English",
-    "companyName": "LingoSoft",
-    "id": 9,
-    "description": "Improve English speaking and listening skills.",
-    "size": 40,
-    "reviews": 1800,
-    "ratingAvg": 4.4,
-    "downloads": 90000,
-    "ratings": [
-      { "name": "1 star", "count": 90 },
-      { "name": "2 star", "count": 110 },
-      { "name": "3 star", "count": 250 },
-      { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 750 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0",
-    "title": "TaskFlow",
-    "companyName": "Productive Inc.",
-    "id": 10,
-    "description": "Organize daily tasks and boost productivity.",
-    "size": 26,
-    "reviews": 720,
-    "ratingAvg": 4.2,
-    "downloads": 35000,
-    "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 210 },
-      { "name": "5 star", "count": 190 }
-    ]
-  },
-
-  
-  {
-    "image": "https://images.unsplash.com/photo-1525182008055-f88b95ff7980",
-    "title": "App Title 11",
-    "companyName": "Company 11",
-    "id": 11,
-    "description": "This is a sample description for app number 11.",
-    "size": 38,
-    "reviews": 850,
-    "ratingAvg": 4.1,
-    "downloads": 65000,
-    "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 100 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 350 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
-    "title": "App Title 12",
-    "companyName": "Company 12",
-    "id": 12,
-    "description": "This is a sample description for app number 12.",
-    "size": 44,
-    "reviews": 1100,
-    "ratingAvg": 4.3,
-    "downloads": 90000,
-    "ratings": [
-      { "name": "1 star", "count": 60 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 140 },
-      { "name": "4 star", "count": 350 },
-      { "name": "5 star", "count": 480 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1481277542470-605612bd2d61",
-    "title": "App Title 13",
-    "companyName": "Company 13",
-    "id": 13,
-    "description": "This is a sample description for app number 13.",
-    "size": 52,
-    "reviews": 1320,
-    "ratingAvg": 4.4,
-    "downloads": 72000,
-    "ratings": [
-      { "name": "1 star", "count": 70 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 160 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 570 }
-    ]
-  },
-
-  {
-    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
-    "title": "App Title 14",
-    "companyName": "Company 14",
-    "id": 14,
-    "description": "This is a sample description for app number 14.",
-    "size": 47,
-    "reviews": 960,
-    "ratingAvg": 4.2,
-    "downloads": 61000,
-    "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 80 },
-      { "name": "3 star", "count": 130 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 400 }
-    ]
-  },
-
-  {
-    "image": "https://images.unsplash.com/photo-1523961131990-5ea7c61b2107",
-    "title": "App Title 15",
-    "companyName": "Company 15",
-    "id": 15,
-    "description": "This is a sample description for app number 15.",
-    "size": 31,
-    "reviews": 710,
-    "ratingAvg": 3.9,
-    "downloads": 45000,
-    "ratings": [
-      { "name": "1 star", "count": 90 },
-      { "name": "2 star", "count": 110 },
-      { "name": "3 star", "count": 160 },
-      { "name": "4 star", "count": 200 },
-      { "name": "5 star", "count": 150 }
-    ]
-  },
-
-  {
-    "image": "https://images.unsplash.com/photo-1505672678657-cc7037095e60",
-    "title": "App Title 16",
-    "companyName": "Company 16",
-    "id": 16,
-    "description": "This is a sample description for app number 16.",
-    "size": 42,
-    "reviews": 990,
-    "ratingAvg": 4.0,
-    "downloads": 55000,
-    "ratings": [
-      { "name": "1 star", "count": 70 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 180 },
-      { "name": "4 star", "count": 260 },
-      { "name": "5 star", "count": 360 }
-    ]
-  },
-
-  {
-    "image": "https://images.unsplash.com/photo-1504805572947-34fad45aed93",
-    "title": "App Title 17",
-    "companyName": "Company 17",
-    "id": 17,
-    "description": "This is a sample description for app number 17.",
-    "size": 48,
-    "reviews": 1400,
+    "image": "https://placehold.co/200x200/34C759/FFFFFF/png?text=TASK",
+    "title": "TaskFlow Organizer",
+    "companyName": "Productivity Hub Inc.",
+    "id": 102,
+    "description": "The ultimate task management app to streamline your daily work and life.",
+    "size": 32.1,
+    "reviews": 25890,
     "ratingAvg": 4.5,
-    "downloads": 100000,
+    "downloads": 1200000,
     "ratings": [
-      { "name": "1 star", "count": 60 },
-      { "name": "2 star", "count": 100 },
-      { "name": "3 star", "count": 140 },
-      { "name": "4 star", "count": 390 },
-      { "name": "5 star", "count": 710 }
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 590 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 13000 }
     ]
   },
-
   {
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-    "title": "App Title 18",
-    "companyName": "Company 18",
-    "id": 18,
-    "description": "This is a sample description for app number 18.",
-    "size": 35,
-    "reviews": 820,
-    "ratingAvg": 4.1,
-    "downloads": 48000,
+    "image": "https://placehold.co/200x200/5856D6/FFFFFF/png?text=SKY",
+    "title": "StarGazer Lite",
+    "companyName": "Cosmic View Apps",
+    "id": 103,
+    "description": "Explore the night sky and identify stars, planets, and constellations in real-time.",
+    "size": 110.8,
+    "reviews": 8900,
+    "ratingAvg": 4.8,
+    "downloads": 350000,
     "ratings": [
       { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 140 },
-      { "name": "4 star", "count": 260 },
-      { "name": "5 star", "count": 300 }
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 4800 }
     ]
   },
-
   {
-    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
-    "title": "App Title 19",
-    "companyName": "Company 19",
-    "id": 19,
-    "description": "This is a sample description for app number 19.",
-    "size": 57,
-    "reviews": 1800,
+    "image": "https://placehold.co/200x200/FF2D55/FFFFFF/png?text=FIT",
+    "title": "FitTrack Daily",
+    "companyName": "Health Metrics Corp",
+    "id": 104,
+    "description": "Track your fitness, nutrition, and sleep with personalized goals and insights.",
+    "size": 65.3,
+    "reviews": 55000,
     "ratingAvg": 4.6,
-    "downloads": 130000,
+    "downloads": 5000000,
     "ratings": [
-      { "name": "1 star", "count": 90 },
-      { "name": "2 star", "count": 110 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 450 },
-      { "name": "5 star", "count": 950 }
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 29200 }
     ]
   },
-
   {
-    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
-    "title": "App Title 20",
-    "companyName": "Company 20",
-    "id": 20,
-    "description": "This is a sample description for app number 20.",
-    "size": 39,
-    "reviews": 900,
-    "ratingAvg": 4.0,
-    "downloads": 59000,
+    "image": "https://placehold.co/200x200/FF9500/FFFFFF/png?text=LANG",
+    "title": "LinguaLearn Spanish",
+    "companyName": "Global Language Inc.",
+    "id": 105,
+    "description": "Interactive lessons and games to master the Spanish language quickly and easily.",
+    "size": 150.9,
+    "reviews": 32000,
+    "ratingAvg": 4.4,
+    "downloads": 2800000,
     "ratings": [
-      { "name": "1 star", "count": 80 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 140 },
-      { "name": "4 star", "count": 270 },
-      { "name": "5 star", "count": 290 }
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 15000 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x200/00C7BE/FFFFFF/png?text=CASH",
+    "title": "BudgetBuddy Wallet",
+    "companyName": "Finance Focus Group",
+    "id": 106,
+    "description": "Simple and effective personal finance manager for tracking expenses and saving money.",
+    "size": 40.7,
+    "reviews": 18500,
+    "ratingAvg": 4.3,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2300 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 8000 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x200/A2845E/FFFFFF/png?text=PIC",
+    "title": "PhotoEdit Magic",
+    "companyName": "Image Creators LLC",
+    "id": 107,
+    "description": "Advanced photo editing with professional filters and easy-to-use tools.",
+    "size": 95.2,
+    "reviews": 42000,
+    "ratingAvg": 4.7,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 450 },
+      { "name": "2 star", "count": 750 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 23000 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x200/FF3B30/FFFFFF/png?text=FOOD",
+    "title": "Recipe Realm",
+    "companyName": "Culinary Tech Co.",
+    "id": 108,
+    "description": "Thousands of recipes, meal planning, and grocery list generation in one app.",
+    "size": 55.6,
+    "reviews": 11200,
+    "ratingAvg": 4.5,
+    "downloads": 650000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x200/5AC8FA/FFFFFF/png?text=DEV",
+    "title": "CodeMentor IDE",
+    "companyName": "DevTools Systems",
+    "id": 109,
+    "description": "A mobile integrated development environment for learning and practicing coding on the go.",
+    "size": 78.9,
+    "reviews": 7500,
+    "ratingAvg": 4.2,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 650 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 2500 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x200/7F00FF/FFFFFF/png?text=TRIP",
+    "title": "TravelGlobe Compass",
+    "companyName": "Wanderlust Tech",
+    "id": 110,
+    "description": "Your essential guide for trip planning, offline maps, and travel journaling.",
+    "size": 180.4,
+    "reviews": 22000,
+    "ratingAvg": 4.9,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 15000 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x200/FFCC00/000000/png?text=ZEN",
+    "title": "MeditateNow Calm",
+    "companyName": "Mindfulness Labs",
+    "id": 111,
+    "description": "Guided meditations and sleep stories to reduce stress and improve focus.",
+    "size": 120.1,
+    "reviews": 38000,
+    "ratingAvg": 4.8,
+    "downloads": 4100000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 24000 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x200/C69C6D/FFFFFF/png?text=BOOK",
+    "title": "Ebook Reader Deluxe",
+    "companyName": "Bookworm Digital",
+    "id": 112,
+    "description": "Customize your reading experience with a vast library of digital books.",
+    "size": 48.0,
+    "reviews": 16000,
+    "ratingAvg": 4.4,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 6500 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x200/FF4500/FFFFFF/png?text=MIX",
+    "title": "MusicMix Studio",
+    "companyName": "Acoustic Innovations",
+    "id": 113,
+    "description": "Create, mix, and record your own music tracks with professional tools.",
+    "size": 190.5,
+    "reviews": 6500,
+    "ratingAvg": 4.1,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 1500 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x200/5E5CE6/FFFFFF/png?text=WETR",
+    "title": "WeatherWise Pro",
+    "companyName": "SkyCast Technologies",
+    "id": 114,
+    "description": "Hyper-local, minute-by-minute weather forecasts and severe weather alerts.",
+    "size": 25.8,
+    "reviews": 48000,
+    "ratingAvg": 4.7,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 3800 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 25000 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x200/90A4AE/FFFFFF/png?text=DIY",
+    "title": "HomeFix Helper",
+    "companyName": "DIY Digital Group",
+    "id": 115,
+    "description": "Step-by-step guides and video tutorials for all your home repair projects.",
+    "size": 72.3,
+    "reviews": 9800,
+    "ratingAvg": 4.6,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 4500 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x200/50D2C8/FFFFFF/png?text=CRPT",
+    "title": "CryptoTracker Live",
+    "companyName": "Blockchain Solutions",
+    "id": 116,
+    "description": "Real-time cryptocurrency portfolio tracking and market news.",
+    "size": 58.1,
+    "reviews": 31000,
+    "ratingAvg": 4.5,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 11000 },
+      { "name": "5 star", "count": 15400 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x200/FFD60A/000000/png?text=GAME",
+    "title": "Gaming Hub Ultra",
+    "companyName": "NextGen Games",
+    "id": 117,
+    "description": "A collection of retro and modern arcade games with multiplayer support.",
+    "size": 250.6,
+    "reviews": 60000,
+    "ratingAvg": 4.3,
+    "downloads": 7500000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 27000 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x200/FF007F/FFFFFF/png?text=CHAT",
+    "title": "SocialConnect Messenger",
+    "companyName": "Communicate Fast Co.",
+    "id": 118,
+    "description": "Secure, fast, and feature-rich instant messaging platform.",
+    "size": 60.9,
+    "reviews": 75000,
+    "ratingAvg": 4.8,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 45000 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x200/AF52DE/FFFFFF/png?text=QUIZ",
+    "title": "EduQuiz Master",
+    "companyName": "Learning Path Studios",
+    "id": 119,
+    "description": "Educational trivia and quizzes across various subjects for all ages.",
+    "size": 44.2,
+    "reviews": 14000,
+    "ratingAvg": 4.6,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/200x200/3A9B53/FFFFFF/png?text=GPS",
+    "title": "DrivePilot GPS",
+    "companyName": "Roadmap Systems",
+    "id": 120,
+    "description": "Reliable GPS navigation with real-time traffic and speed limit alerts.",
+    "size": 150.3,
+    "reviews": 50000,
+    "ratingAvg": 4.7,
+    "downloads": 8500000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 3700 },
+      { "name": "4 star", "count": 17000 },
+      { "name": "5 star", "count": 27000 }
     ]
   }
 ]

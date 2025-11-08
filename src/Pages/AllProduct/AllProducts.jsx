@@ -2,14 +2,10 @@ import React from 'react';
 import { FaDownload } from "react-icons/fa";
 import { FcRating } from "react-icons/fc";
 
-
-
-const TrandingData = ({ item }) => {
-    
-    const { image, title, downloads, ratingAvg } = item;
+const AllProducts = ({ data }) => {
+    const { image, title, downloads, ratingAvg } = data;
     return (
-        <div className=''>
-
+        <div>
             <div className="card bg-base-100 w-70 shadow-sm">
                 <figure>
                     <img className='w-[250px] h-[150px] p-2 rounded-xl '
@@ -25,7 +21,7 @@ const TrandingData = ({ item }) => {
                         </p>
 
                         <p className='p-1 bg-orange-200 text-orange-500 rounded-md flex items-center gap-1 text-[10px] font-normal '><FcRating />
-{ratingAvg}</p>
+                            {ratingAvg}</p>
                     </div>
                 </div>
             </div>
@@ -33,4 +29,4 @@ const TrandingData = ({ item }) => {
     );
 };
 
-export default TrandingData;
+export default AllProducts;
