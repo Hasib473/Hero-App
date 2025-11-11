@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGooglePlay } from "react-icons/fa";
 import { FaAppStoreIos } from "react-icons/fa";
 import heroimg from '../../assets/hero.png'
+import { NavLink } from 'react-router';
 
 
 
@@ -14,11 +15,12 @@ const Hero = () => {
             </div>
 
             <div className='text-center mt-4 '>
-                <button className='btn '> <FaGooglePlay />
-                    Google Play</button>
-                <button className='btn ml-2'><FaAppStoreIos />
+               <NavLink to='https://play.google.com/store/games?hl=en'> <button className='btn '> <FaGooglePlay />
+                    Google Play</button></NavLink>
+                
+                <NavLink to='https://www.apple.com/app-store/'><button className='btn ml-2'><FaAppStoreIos />
 
-                    Apps Store</button>
+                    Apps Store</button></NavLink>
             </div>
 
             <div className=' mt-10'>

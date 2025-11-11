@@ -1,7 +1,7 @@
 import React from 'react';
 import Hero from '../../Components/Hero/hero';
 import Tranding from '../../Components/Tranding/Tranding';
-import { useLoaderData } from 'react-router';
+import { NavLink, useLoaderData } from 'react-router';
 
 const Home = () => {
     const trandData = useLoaderData();
