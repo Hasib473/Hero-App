@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useLoaderData } from 'react-router';
 import AllProducts from '../AllProduct/AllProducts';
+import NotFound from '../../Components/NotFound/NotFound';
 
 const Product = () => {
     const allData = useLoaderData();
@@ -10,6 +11,19 @@ const Product = () => {
     const filtered = allData.filter(item =>
         item.title.toLowerCase().includes(searchText.toLowerCase())
     );
+
+    const onGoBack = () => {
+        setSearchText('')
+    }
+
+    if(filtered.length === 0){
+        return (
+            <div className="">
+                <NotFound onGoBack={onGoBack}></NotFound>
+            </div>
+        )
+        
+    }
 
     return (
         <div>
