@@ -9,23 +9,37 @@ import Root from './Pages/Root/Root.jsx';
 import Home from './Pages/Home/Home.jsx';
 import Product from './Pages/product/Product.jsx';
 import Install from './Pages/Install/Install.jsx';
+import AppInfo from './Components/AppInfo/AppInfo.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    Component: Root ,
+    Component: Root,
     children: [
-      { index: true,
-      loader:()=>fetch ('appData.json'),
-       Component: Home },
-      {path: 'product',
-      loader:()=>fetch ('appData.json'),
-       Component: Product},
-      {path:'install', Component: Install}
-
+      { 
+        index: true,
+        loader:  () => fetch('appData.json'),
+        Component: Home 
+      },
+      {
+        path: 'product',
+        loader:  () => fetch('appData.json'),
+        Component: Product
+      },
+      {
+        path: 'install', 
+        loader: () => fetch('appData.json'),
+        Component: Install
+      },
+      {
+        path: 'product/:id',
+        loader: () => fetch(`/appData.json`),
+        Component: AppInfo
+      }
     ]
-   },
+  },
 ]);
+
 
 
 

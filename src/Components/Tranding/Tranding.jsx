@@ -3,6 +3,8 @@ import TrandingData from './TrandingData';
 import { NavLink } from 'react-router';
 
 const Tranding = ({ trandData }) => {
+    console.log(trandData)
+
     return (
         <div>
             <div className='mt-10 text-center'>
@@ -12,8 +14,8 @@ const Tranding = ({ trandData }) => {
 
             <div className='w-11/12 mx-auto mt-8 grid grid-cols-4 gap-3'>
 
-                {trandData.slice(0, 8).map(item => <TrandingData key={item.id} item={item}></TrandingData>)}
-
+                {trandData?.slice(0, 8).map(item => <TrandingData key={item.id} item={item}></TrandingData>)}
+                
 
             </div>
             <div className='mt-8 text-center'>

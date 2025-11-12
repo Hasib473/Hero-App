@@ -1,11 +1,13 @@
 import React from 'react';
 import { FaDownload } from "react-icons/fa";
 import { FcRating } from "react-icons/fc";
+import { Link } from 'react-router';
 
 const AllProducts = ({ data }) => {
-    const { image, title, downloads, ratingAvg } = data;
+    const { image, title, downloads, ratingAvg ,id} = data;
     return (
         <div>
+            <Link to={`/product/ ${id}`}>
             <div className="card bg-base-100 w-70 shadow-sm">
                 <figure>
                     <img className='w-[250px] h-[150px] p-2 rounded-xl '
@@ -25,6 +27,7 @@ const AllProducts = ({ data }) => {
                     </div>
                 </div>
             </div>
+            </Link>
         </div>
     );
 };
