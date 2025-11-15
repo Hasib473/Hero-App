@@ -27,7 +27,7 @@ const router = createBrowserRouter([
         Component: Home
       },
       {
-        path: 'product',
+        path: '/product',
         loader: async () => {
           const res = await fetch("/appData.json");
           const data = await res.json();
@@ -37,7 +37,7 @@ const router = createBrowserRouter([
         Component: Product
       },
       {
-        path: "install",
+        path: "/install",
         loader: async () => {
           const res = await fetch('/appData.json');
           const data = await res.json();
@@ -52,7 +52,7 @@ const router = createBrowserRouter([
         Component: AppInfo
       },
       {
-        path:'*',
+        path:'/*',
         element: <FoundNot/>
       }
 
