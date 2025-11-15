@@ -16,21 +16,26 @@ const router = createBrowserRouter([
     path: "/",
     Component: Root,
     children: [
-      { 
+      {
         index: true,
-        loader:  () => fetch('appData.json'),
-        Component: Home 
+        loader: () => fetch('appData.json'),
+        Component: Home
       },
       {
         path: 'product',
-        loader:  () => fetch('appData.json'),
+        loader: () => fetch('appData.json'),
         Component: Product
       },
       {
-        path: 'install', 
-        loader: () => fetch('appData.json'),
+        path: "install",
+        loader: async () => {
+          const res = await fetch('/appData.json');
+          const data = await res.json();
+          return Array.isArray(data) ? data : [];
+        },
         Component: Install
       },
+
       {
         path: 'product/:id',
         loader: () => fetch(`/appData.json`),
@@ -45,6 +50,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <RouterProvider router={router} />,
+    <RouterProvider router={router} />,
   </StrictMode>,
 )
