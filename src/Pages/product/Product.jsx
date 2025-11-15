@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useLoaderData } from 'react-router';
 import AllProducts from '../AllProduct/AllProducts';
 import NotFound from '../../Components/NotFound/NotFound';
@@ -6,38 +6,48 @@ import Loading from '../../Components/Loading/Loading';
 
 const Product = () => {
     const allData = useLoaderData();
-
-    const [searchText, setSearchText] = useState("");
-    const [loading, setLoading] = useState(true);
-
-    
-    useEffect(() => {
-        const timer = setTimeout(() => setLoading(false), 500);
-        return () => clearTimeout(timer);
-    }, []);
-
-    
     const safeData = Array.isArray(allData) ? allData : [];
 
-    const filtered = safeData.filter(item =>
-        item.title.toLowerCase().includes(searchText.toLowerCase())
-    );
+    const [searchText, setSearchText] = useState("");
+    const [loading, setLoading] = useState(true); 
+    const [filtered, setFiltered] = useState([]);
+
+    const debounceTimer = useRef(null);
+
+    // 🔹 Initial load
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setFiltered(safeData); 
+            setLoading(false);
+        }, 500); 
+        return () => clearTimeout(timer);
+    }, [safeData]);
+
+    const handleSearchChange = (e) => {
+        const value = e.target.value;
+        setSearchText(value);
+
+        
+        if (debounceTimer.current) clearTimeout(debounceTimer.current);
+
+        
+        debounceTimer.current = setTimeout(() => {
+            setLoading(true); 
+
+            setTimeout(() => { 
+                const result = safeData.filter(item =>
+                    item.title.toLowerCase().includes(value.toLowerCase())
+                );
+                setFiltered(result);
+                setLoading(false);
+            }, 500);
+        }, 1000);
+    };
 
     const onGoBack = () => setSearchText('');
 
-    if (loading) {
-        return (
-           <Loading></Loading>
-        );
-    }
-
-    if (filtered.length === 0) {
-        return (
-            <div className="">
-                <NotFound onGoBack={onGoBack} />
-            </div>
-        );
-    }
+    if (loading) return <Loading />;
+    if (filtered.length === 0 && searchText !== "") return <NotFound onGoBack={onGoBack} />;
 
     return (
         <div>
@@ -57,11 +67,10 @@ const Product = () => {
                                 <path d="m21 21-4.3-4.3"></path>
                             </g>
                         </svg>
-
                         <input
                             type="search"
                             value={searchText}
-                            onChange={(e) => setSearchText(e.target.value)}
+                            onChange={handleSearchChange}
                             placeholder="Search"
                             className="w-full outline-none"
                         />
@@ -70,9 +79,7 @@ const Product = () => {
             </div>
 
             <div className='max-w-11/12 mx-auto mt-8 grid grid-cols-2 md:grid-cols-4 gap-3'>
-                {filtered.map(data =>
-                    <AllProducts key={data.id} data={data} />
-                )}
+                {filtered.map(data => <AllProducts key={data.id} data={data} />)}
             </div>
         </div>
     );
