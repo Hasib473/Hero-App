@@ -8,9 +8,9 @@ const AllProducts = ({ data }) => {
     return (
         <div>
             <Link to={`/product/ ${id}`}>
-            <div className="card bg-base-100 w-70 shadow-sm">
+            <div className="card bg-base-100 w-auto md:w-70 shadow-sm">
                 <figure>
-                    <img className='w-[250px] h-[150px] p-2 rounded-xl '
+                    <img className='w-auto h-auto md:w-[250px] md:h-[150px] p-2 rounded-xl '
                         src={image}
                         alt="Shoes" />
                 </figure>

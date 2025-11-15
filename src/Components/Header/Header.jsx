@@ -1,13 +1,13 @@
 import React from 'react';
 import logo from '../../assets/logo.png';
 import { FaGithub } from "react-icons/fa";
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 
 
 const Header = () => {
     return (
         <div>
-            <div className="navbar bg-base-100 shadow-sm px-8">
+            <div className="navbar bg-base-100 shadow-sm md:px-8">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -23,7 +23,7 @@ const Header = () => {
         <li><NavLink to="/install">Installation</NavLink></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl font-bold text-violet-600 uppercase"><img className='w-[50px]' src={logo} alt="" /> Hero.io</a>
+    <Link to={'/'} className="btn btn-ghost text-xl font-bold text-violet-600 uppercase"><img className='w-[50px]' src={logo} alt="" /> Hero.io</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

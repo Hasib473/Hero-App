@@ -10,6 +10,7 @@ import Home from './Pages/Home/Home.jsx';
 import Product from './Pages/product/Product.jsx';
 import Install from './Pages/Install/Install.jsx';
 import AppInfo from './Components/AppInfo/AppInfo.jsx';
+import FoundNot from './Components/FoundNot/FoundNot.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,12 +19,21 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        loader: () => fetch('appData.json'),
+        loader: async () =>{
+          const res = await fetch ('/appData.json');
+          const data = await res.json();
+          return data;
+        },
         Component: Home
       },
       {
         path: 'product',
-        loader: () => fetch('appData.json'),
+        loader: async () => {
+          const res = await fetch("/appData.json");
+          const data = await res.json();
+          return data;
+        },
+
         Component: Product
       },
       {
@@ -40,7 +50,12 @@ const router = createBrowserRouter([
         path: 'product/:id',
         loader: () => fetch(`/appData.json`),
         Component: AppInfo
+      },
+      {
+        path:'*',
+        element: <FoundNot/>
       }
+
     ]
   },
 ]);

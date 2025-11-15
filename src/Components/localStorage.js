@@ -27,12 +27,12 @@ const addToStoredDB = (id) => {
     }
 }
 
-export const removeApp = (id) => {
+ const removeApp = (id) => {
     const stored = JSON.parse(localStorage.getItem("app-store")) || [];
     const remaining = stored.filter(item => parseInt(item) !== parseInt(id));
     localStorage.setItem("app-store", JSON.stringify(remaining));
 };
 
 
-export { addToStoredDB, getStoredApp };
+export { addToStoredDB, getStoredApp ,removeApp };
 

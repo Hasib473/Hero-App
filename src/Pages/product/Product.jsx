@@ -1,28 +1,42 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLoaderData } from 'react-router';
 import AllProducts from '../AllProduct/AllProducts';
 import NotFound from '../../Components/NotFound/NotFound';
+import Loading from '../../Components/Loading/Loading';
 
 const Product = () => {
     const allData = useLoaderData();
 
     const [searchText, setSearchText] = useState("");
+    const [loading, setLoading] = useState(true);
 
-    const filtered = allData.filter(item =>
+    
+    useEffect(() => {
+        const timer = setTimeout(() => setLoading(false), 500);
+        return () => clearTimeout(timer);
+    }, []);
+
+    
+    const safeData = Array.isArray(allData) ? allData : [];
+
+    const filtered = safeData.filter(item =>
         item.title.toLowerCase().includes(searchText.toLowerCase())
     );
 
-    const onGoBack = () => {
-        setSearchText('')
+    const onGoBack = () => setSearchText('');
+
+    if (loading) {
+        return (
+           <Loading></Loading>
+        );
     }
 
-    if(filtered.length === 0){
+    if (filtered.length === 0) {
         return (
             <div className="">
-                <NotFound onGoBack={onGoBack}></NotFound>
+                <NotFound onGoBack={onGoBack} />
             </div>
-        )
-        
+        );
     }
 
     return (
@@ -33,7 +47,6 @@ const Product = () => {
             </p>
 
             <div className='flex justify-between items-center mt-3 w-11/12 mx-auto'>
-            
                 <h1 className='text-xl font-bold'>({filtered.length}) Apps Found</h1>
 
                 <div>
@@ -45,7 +58,6 @@ const Product = () => {
                             </g>
                         </svg>
 
-                    
                         <input
                             type="search"
                             value={searchText}
@@ -57,8 +69,7 @@ const Product = () => {
                 </div>
             </div>
 
-    
-            <div className='w-11/12 mx-auto mt-8 grid grid-cols-4 gap-3'>
+            <div className='max-w-11/12 mx-auto mt-8 grid grid-cols-2 md:grid-cols-4 gap-3'>
                 {filtered.map(data =>
                     <AllProducts key={data.id} data={data} />
                 )}

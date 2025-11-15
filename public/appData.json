@@ -15,7 +15,8 @@
       { "name": "3 star", "count": 800 },
       { "name": "4 star", "count": 4500 },
       { "name": "5 star", "count": 9700 }
-    ]
+    ],
+    "fullDescription": "Unleash your creativity with PixelPainter Pro. It offers advanced layers, customizable brushes, and powerful editing tools, making it the perfect platform for professional digital artists and hobbyists to bring their visions to life."
   },
   {
     "image": "https://placehold.co/200x200/34C759/FFFFFF/png?text=TASK",
@@ -33,7 +34,8 @@
       { "name": "3 star", "count": 2000 },
       { "name": "4 star", "count": 10000 },
       { "name": "5 star", "count": 13000 }
-    ]
+    ],
+    "fullDescription": "TaskFlow Organizer helps you manage everything from simple to-do lists to complex projects. With smart reminders, collaboration features, and customizable workflows, this app is essential for boosting personal and team productivity and staying on top of deadlines."
   },
   {
     "image": "https://placehold.co/200x200/5856D6/FFFFFF/png?text=SKY",
@@ -51,7 +53,8 @@
       { "name": "3 star", "count": 450 },
       { "name": "4 star", "count": 3500 },
       { "name": "5 star", "count": 4800 }
-    ]
+    ],
+    "fullDescription": "Transform your phone into a portable planetarium with StarGazer Lite. Simply point your device at the sky to identify thousands of celestial objects, track planet movements, and learn fascinating astronomy facts. Perfect for budding astronomers and space enthusiasts."
   },
   {
     "image": "https://placehold.co/200x200/FF2D55/FFFFFF/png?text=FIT",
@@ -69,7 +72,8 @@
       { "name": "3 star", "count": 4000 },
       { "name": "4 star", "count": 20000 },
       { "name": "5 star", "count": 29200 }
-    ]
+    ],
+    "fullDescription": "FitTrack Daily is your comprehensive health and wellness companion. Monitor all aspects of your well-being, including daily steps, calorie intake, and sleep quality. Receive personalized coaching and data-driven insights to achieve your fitness goals faster and more efficiently."
   },
   {
     "image": "https://placehold.co/200x200/FF9500/FFFFFF/png?text=LANG",
@@ -87,7 +91,8 @@
       { "name": "3 star", "count": 3500 },
       { "name": "4 star", "count": 12000 },
       { "name": "5 star", "count": 15000 }
-    ]
+    ],
+    "fullDescription": "Start speaking Spanish confidently with LinguaLearn Spanish. Our engaging curriculum uses gamified exercises, spaced repetition, and cultural insights to help you build fluency in vocabulary and grammar. Perfect for travelers, students, and lifelong learners."
   },
   {
     "image": "https://placehold.co/200x200/00C7BE/FFFFFF/png?text=CASH",
@@ -105,7 +110,8 @@
       { "name": "3 star", "count": 2300 },
       { "name": "4 star", "count": 7000 },
       { "name": "5 star", "count": 8000 }
-    ]
+    ],
+    "fullDescription": "Take control of your finances with BudgetBuddy Wallet. Easily categorize transactions, set realistic budgets, and receive insightful reports on your spending habits. This intuitive app makes personal money management straightforward, helping you save more for your future goals."
   },
   {
     "image": "https://placehold.co/200x200/A2845E/FFFFFF/png?text=PIC",
@@ -123,7 +129,8 @@
       { "name": "3 star", "count": 2800 },
       { "name": "4 star", "count": 15000 },
       { "name": "5 star", "count": 23000 }
-    ]
+    ],
+    "fullDescription": "PhotoEdit Magic brings professional-grade photo manipulation to your mobile device. With powerful features like AI-powered retouching, an extensive library of artistic filters, and precise adjustment sliders, you can effortlessly transform ordinary snapshots into stunning visual masterpieces."
   },
   {
     "image": "https://placehold.co/200x200/FF3B30/FFFFFF/png?text=FOOD",
@@ -141,7 +148,8 @@
       { "name": "3 star", "count": 1600 },
       { "name": "4 star", "count": 4000 },
       { "name": "5 star", "count": 5000 }
-    ]
+    ],
+    "fullDescription": "Recipe Realm is your all-in-one kitchen assistant. Explore a vast collection of delicious recipes, seamlessly plan your weekly meals, and automatically generate smart grocery lists based on your selections. Simplify your cooking and discover new culinary favorites today."
   },
   {
     "image": "https://placehold.co/200x200/5AC8FA/FFFFFF/png?text=DEV",
@@ -159,7 +167,8 @@
       { "name": "3 star", "count": 1500 },
       { "name": "4 star", "count": 2500 },
       { "name": "5 star", "count": 2500 }
-    ]
+    ],
+    "fullDescription": "CodeMentor IDE allows you to write, run, and debug code right from your phone or tablet. Supporting multiple programming languages, it's the perfect tool for computer science students, developers, and anyone wanting to practice their coding skills anytime, anywhere."
   },
   {
     "image": "https://placehold.co/200x200/7F00FF/FFFFFF/png?text=TRIP",
@@ -177,7 +186,8 @@
       { "name": "3 star", "count": 600 },
       { "name": "4 star", "count": 6000 },
       { "name": "5 star", "count": 15000 }
-    ]
+    ],
+    "fullDescription": "Organize your perfect adventure with TravelGlobe Compass. Plan detailed itineraries, download offline maps to navigate without data, and capture your memories with the built-in travel journal. It’s the highest-rated tool for seamless, stress-free international and local trips."
   },
   {
     "image": "https://placehold.co/200x200/FFCC00/000000/png?text=ZEN",
@@ -195,7 +205,8 @@
       { "name": "3 star", "count": 1400 },
       { "name": "4 star", "count": 12000 },
       { "name": "5 star", "count": 24000 }
-    ]
+    ],
+    "fullDescription": "Find peace and improve your mental well-being with MeditateNow Calm. Access hundreds of guided meditation sessions for anxiety and stress relief, or drift off with soothing sleep stories and calming soundscapes. Start your journey to a more centered and focused life today."
   },
   {
     "image": "https://placehold.co/200x200/C69C6D/FFFFFF/png?text=BOOK",
@@ -213,7 +224,8 @@
       { "name": "3 star", "count": 2500 },
       { "name": "4 star", "count": 6500 },
       { "name": "5 star", "count": 6000 }
-    ]
+    ],
+    "fullDescription": "Ebook Reader Deluxe offers the ultimate customizable reading platform. Adjust fonts, backgrounds, and margins to your preference, manage your digital library across various formats, and enjoy a comfortable, distraction-free reading experience for all your favorite titles."
   },
   {
     "image": "https://placehold.co/200x200/FF4500/FFFFFF/png?text=MIX",
@@ -231,7 +243,8 @@
       { "name": "3 star", "count": 1800 },
       { "name": "4 star", "count": 1800 },
       { "name": "5 star", "count": 1500 }
-    ]
+    ],
+    "fullDescription": "Unleash your inner producer with MusicMix Studio. This powerful mobile DAW provides multi-track recording, a rich sound library, and professional mixing effects. It's an indispensable tool for musicians and producers who want to create high-quality music anywhere."
   },
   {
     "image": "https://placehold.co/200x200/5E5CE6/FFFFFF/png?text=WETR",
@@ -249,7 +262,8 @@
       { "name": "3 star", "count": 3800 },
       { "name": "4 star", "count": 18000 },
       { "name": "5 star", "count": 25000 }
-    ]
+    ],
+    "fullDescription": "WeatherWise Pro provides highly accurate, hyper-local forecasts right down to the minute. Receive instant severe weather notifications, radar maps, and essential metrics like air quality and humidity. It's the essential tool for planning your day with confidence."
   },
   {
     "image": "https://placehold.co/200x200/90A4AE/FFFFFF/png?text=DIY",
@@ -267,7 +281,8 @@
       { "name": "3 star", "count": 1300 },
       { "name": "4 star", "count": 3500 },
       { "name": "5 star", "count": 4500 }
-    ]
+    ],
+    "fullDescription": "Tackle any repair or renovation project with confidence using HomeFix Helper. Access a vast library of easy-to-follow video tutorials and step-by-step guides for everything from plumbing to electrical work. Empower yourself to become a successful do-it-yourself homeowner."
   },
   {
     "image": "https://placehold.co/200x200/50D2C8/FFFFFF/png?text=CRPT",
@@ -285,7 +300,8 @@
       { "name": "3 star", "count": 3000 },
       { "name": "4 star", "count": 11000 },
       { "name": "5 star", "count": 15400 }
-    ]
+    ],
+    "fullDescription": "Stay ahead of the crypto market with CryptoTracker Live. Get instant updates on prices, track your entire digital asset portfolio in real-time, and receive breaking news that impacts your investments. It's the secure and reliable app for serious crypto traders."
   },
   {
     "image": "https://placehold.co/200x200/FFD60A/000000/png?text=GAME",
@@ -303,7 +319,8 @@
       { "name": "3 star", "count": 8000 },
       { "name": "4 star", "count": 20000 },
       { "name": "5 star", "count": 27000 }
-    ]
+    ],
+    "fullDescription": "Gaming Hub Ultra delivers a massive library of games, ranging from nostalgic retro classics to modern multiplayer challenges. Enjoy smooth performance, regular content updates, and the ability to compete with friends worldwide in various exciting arcade genres."
   },
   {
     "image": "https://placehold.co/200x200/FF007F/FFFFFF/png?text=CHAT",
@@ -321,7 +338,8 @@
       { "name": "3 star", "count": 3500 },
       { "name": "4 star", "count": 25000 },
       { "name": "5 star", "count": 45000 }
-    ]
+    ],
+    "fullDescription": "SocialConnect Messenger is the secure way to keep in touch with everyone. Enjoy end-to-end encryption for privacy, lightning-fast delivery of text, voice, and video messages, and customizable chat themes. Connect effortlessly with millions of users globally."
   },
   {
     "image": "https://placehold.co/200x200/AF52DE/FFFFFF/png?text=QUIZ",
@@ -339,7 +357,8 @@
       { "name": "3 star", "count": 1600 },
       { "name": "4 star", "count": 6000 },
       { "name": "5 star", "count": 6000 }
-    ]
+    ],
+    "fullDescription": "Make learning fun with EduQuiz Master. Challenge yourself with thousands of engaging quizzes in science, history, geography, and more. Track your progress, compete with friends, and expand your knowledge base through an interactive and rewarding educational experience."
   },
   {
     "image": "https://placehold.co/200x200/3A9B53/FFFFFF/png?text=GPS",
@@ -357,6 +376,7 @@
       { "name": "3 star", "count": 3700 },
       { "name": "4 star", "count": 17000 },
       { "name": "5 star", "count": 27000 }
-    ]
+    ],
+    "fullDescription": "DrivePilot GPS offers superior, turn-by-turn navigation for every journey. Benefit from accurate real-time traffic updates, spoken street names, and alerts for speed cameras and limits. Its robust offline map capabilities make it your trusted co-pilot anywhere in the world."
   }
 ]

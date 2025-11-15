@@ -5,6 +5,9 @@ import { NavLink } from 'react-router';
 const Tranding = ({ trandData }) => {
     console.log(trandData)
 
+      // Ensure allData is always an array
+    const safeData = Array.isArray(trandData) ? trandData : [];
+
     return (
         <div>
             <div className='mt-10 text-center'>
@@ -12,9 +15,10 @@ const Tranding = ({ trandData }) => {
                 <p className='text-[12px] font-normal'>Explore all the tranding app market  devloped by us</p>
             </div>
 
-            <div className='w-11/12 mx-auto mt-8 grid grid-cols-4 gap-3'>
+<div className="w-11/12 mx-auto mt-8 
+    grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-3">
 
-                {trandData?.slice(0, 8).map(item => <TrandingData key={item.id} item={item}></TrandingData>)}
+                {safeData?.slice(0, 8).map(item => <TrandingData key={item.id} item={item}></TrandingData>)}
                 
 
             </div>
