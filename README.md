@@ -33,8 +33,4 @@ A responsive React web application to **browse, search, install, and manage mobi
 
 ---
 
-## Getting Started
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/app-marketplace.git
-cd app-marketplace
+
